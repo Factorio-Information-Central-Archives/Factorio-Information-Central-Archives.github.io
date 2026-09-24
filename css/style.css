@@ -31,52 +31,7 @@
     margin: 0 auto;
 }
 
-.procesed-basic-resourses {
-    display: flex;      
-    flex-wrap: wrap;     
-    justify-content: center; 
-    gap: 30px;            
-    padding: 20px;
-    max-width: 1200px;     
-    margin: 0 auto;       
-}
-
-.procesed-basic-resourses > div {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;  
-    text-align: center;   
-    width: 150px;           
-}
-
-.raw-basic-resourses {
-    display: flex;      
-    flex-wrap: wrap;     
-    justify-content: center; 
-    gap: 30px;            
-    padding: 20px;
-    max-width: 1200px;     
-    margin: 0 auto;       
-}
-
-.raw-basic-resourses > div {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;  
-    text-align: center;   
-    width: 150px;           
-}
-
-.basic-crafting-recepies {
-    display: flex;      
-    flex-direction: column;  
-    gap: 40px;              
-    padding: 20px;
-    max-width: 1200px;     
-    margin: 0 auto; 
-}
-
-.recepie {
+.recipe {
     display: flex;
     flex-direction: row;  
     flex-wrap: wrap;       
@@ -86,12 +41,30 @@
     width: 100%;            
 }
 
-.recepie > div{
+.recipe > div{
     display: flex;
     flex-direction: column; 
     align-items: center;    
     text-align: center;   
     width: 100px;           
+}
+
+.intermediates {
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;       
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;            
+}
+
+.intermediates > div{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;   
+    width: 115px;           
 }
 
 .image {
@@ -105,9 +78,21 @@
 .image-for-crafting {
     min-width: 75px;
     min-height: 75px;
-    max-width: 76px;
-    max-height: 76px;
     object-fit: contain;
     image-rendering: pixelated; 
     image-rendering: crisp-edges; 
+}
+
+.science-assets {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.space-icon {
+    object-fit: contain;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
